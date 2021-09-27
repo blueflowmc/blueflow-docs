@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Post guide
+# Post Guide
 
 Markdownの表現集をまとめています。
 
@@ -62,12 +62,6 @@ Regular Markdown links are supported, using url paths or relative file paths.
 Let's see how to [Create a page](/create-a-page).
 ```
 
-```md
-Let's see how to [Create a page](./create-a-page.md).
-```
-
-**Result:** Let's see how to [Create a page](./create-a-page.md).
-
 ## Images
 
 Regular Markdown images are supported.
@@ -103,15 +97,15 @@ function HelloDocusaurus() {
 Docusaurus has a special syntax to create admonitions and callouts:
 
     :::tip My tip
-    
+
     Use this awesome feature option
-    
+
     :::
-    
+
     :::danger Take care
-    
+
     This action is dangerous
-    
+
     :::
 
 :::tip My tip
@@ -131,12 +125,42 @@ This action is dangerous
 [MDX](https://mdxjs.com/) can make your documentation more **interactive** and allows using any **React components inside Markdown**:
 
 ```jsx
-a
+export const Highlight = ({children, color}) => (
+  <span
+    style={{
+      backgroundColor: color,
+      borderRadius: '20px',
+      color: '#fff',
+      padding: '10px',
+      cursor: 'pointer',
+    }}
+    onClick={() => {
+      alert(`You clicked the color ${color} with label ${children}`)
+    }}>
+    {children}
+  </span>
+);
 
-A
+This is <Highlight color="#25c2a0">Docusaurus green</Highlight> !
+
+This is <Highlight color="#1877F2">Facebook blue</Highlight> !
 ```
 
-a
+export const Highlight = ({children, color}) => (
+  <span
+    style={{
+      backgroundColor: color,
+      borderRadius: '20px',
+      color: '#fff',
+      padding: '10px',
+      cursor: 'pointer',
+    }}
+    onClick={() => {
+      alert(`You clicked the color ${color} with label ${children}`);
+    }}>
+    {children}
+  </span>
+);
 
 This is <Highlight color="#25c2a0">Docusaurus green</Highlight> !
 
