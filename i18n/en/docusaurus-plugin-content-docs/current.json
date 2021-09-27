@@ -1,0 +1,18 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Overworld": {
+    "message": "Overworld",
+    "description": "The label for category Overworld in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Nether": {
+    "message": "Nether",
+    "description": "The label for category Nether in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.The end": {
+    "message": "The end",
+    "description": "The label for category The end in sidebar tutorialSidebar"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "title": {
+    "message": "Blueflow Docs",
+    "description": "The title in the navbar"
+  },
+  "item.label.Home": {
+    "message": "Home",
+    "description": "Navbar item with label Home"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Navbar item with label GitHub"
+  },
+  "item.label.Docs": {
+    "message": "Docs",
+    "description": "Navbar item with label Docs"
+  },
+  "item.label.Roadmap": {
+    "message": "Roadmap",
+    "description": "Navbar item with label Roadmap"
+  },
+  "item.label.翻訳": {
+    "message": "翻訳",
+    "description": "Navbar item with label 翻訳"
+  }
+}
